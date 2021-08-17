@@ -1,0 +1,53 @@
+def calculator():
+    print("welcome to the calculator")
+    print("this calculator is developed by sameer")
+    op=input("please enter the math operation you want to do: \n"
+             "+ for addition \n"
+             "- for subtraction \n"
+             "* for multiplication \n"
+             "/ for division \n"
+             "% for modulo \n"
+             "** for exponential \n"
+             "enter your choice:")
+    n1=int(input("enter the first number"))
+    n2=int(input("enter the second number"))
+
+    if op=="+":
+        print(f"{n1} + {n2} = {n1 + n2}")
+
+    elif op=="-":
+        print(f"{n1} - {n2} = {n1 - n2}")
+
+    elif op == "*":
+        print(f"{n1} * {n2} = {n1 * n2}")
+
+    elif op == "/":
+        print(f"{n1} / {n2} = {n1 / n2}")
+
+    elif op == "%":
+        print(f"{n1} % {n2} = {n1 % n2}")
+
+    elif op=="**":
+        print(f"{n1} ** {n2} = {n1 ** n2}")
+
+    else:
+        print("invalid operation, try again")
+        again()
+    again()
+
+def again():
+    opt=input('''Do you want to calulate again?
+    If YES type y
+    If NO type n
+    Your Responce:''')
+
+    if opt=="y":
+        calculator()
+    elif opt=="n":
+        print("thank you for using calculator")
+    else:
+        print("invalid input")
+        print("please select a valid option")
+        again()
+
+calculator()
