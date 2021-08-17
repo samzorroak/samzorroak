@@ -37,8 +37,8 @@ def calculator():
 
 def again():
     opt=input('''Do you want to calulate again?
-    If YES type Y
-    If NO type N
+    If YES type y
+    If NO type n
     Your Responce:''')
 
     if opt=="y":
