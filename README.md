@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @samzorroak
 - 👀 I’m interested in coding
-- 🌱 I’m currently learning python
-- 💞️ I’m looking to collaborate on small python projects
+- 🌱 I’m currently learning web dev
+- 💞️ I’m looking to collaborate on small projects
 - 📫 How to reach me @samzorroak
 
 <!---
